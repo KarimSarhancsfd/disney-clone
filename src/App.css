@@ -1,11 +1,10 @@
 #root {
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.logo-image {
+  width: 80px;
+  max-width: 80px;
+  object-fit: cover;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
